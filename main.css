@@ -1,0 +1,354 @@
+body{
+    margin: 0 ;
+    font-family: sans-serif;
+}
+
+
+
+
+/*MEDIA QUERIES--------------*/
+
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right !important;
+    display:block;
+     
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.responsive {position: relative;}
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0; 
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+
+/*HEADER STYLING-------------*/
+
+
+#header {
+    height:  600px;
+    background: url(assets/74H.jpg) center center;
+    background-size: cover;
+    
+}
+
+nav a {
+    float: left;
+    color: rgba(0,0,0,0.7);
+    text-transform: uppercase;
+    display: block;
+    margin: 0 20px 0 20px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 16px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+nav .icon {
+    display: none;
+}
+
+ h1 {
+    text-align: center;
+    margin 0 auto;
+    font-size: 55px !important;
+    font-weight: 700;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    clear: both;
+    position: relative;
+     top: 22%;
+}
+
+h1 span{
+    display: inline-block;
+    padding: 0.5em;
+    border: 10px solid white;
+}
+
+#header p {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+footer {
+    height: 120px;
+    margin: 0 auto;
+    background: url(assets/74H.jpg) center center;
+    background-size: cover;
+    clear: both;
+}
+
+#copy-right {
+    font-size: 0.5em;
+    position: relative;
+    top: 50px;
+    clear: both;
+}
+
+footer nav {
+    float: left;
+}
+
+
+
+/*ABOUT ME STYLING ----------------*/
+
+
+.image-lockup {
+    display: inline-block;
+    margin: 0 auto;
+     height: 160px;
+    padding-bottom: 200px;
+}
+
+
+section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+section h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #e1c184;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    
+}
+
+.head-shot {
+    width: 200px;
+    height: 200px;
+    background: url(assets/headshot2.jpg) center center;
+    background: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mouse-img {
+    background: url(assets/mouse3.png) center center;
+    background: cover;
+    width: 70px;
+    height: 102px;
+    float: right;
+    position: relative;
+    
+    margin-right: 70px;
+}
+
+
+.code-img {
+    width: 113px;
+    height: 102px;
+    background: url(assets/code3-img.jpg) center center;
+    background: cover;
+    margin-left: 70px;
+}
+
+section p {
+    margin-top: 80px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 70px;
+    padding-bottom: 30px;
+    font-size: 14px !important;
+    color: #e1c184 !important;
+}
+
+
+
+/*SKILL SET STYLING---------------*/
+
+
+#my-skills-header {
+   margin: 70px !important;
+}
+
+.jumbotron .row {
+    margin: 0 auto;
+    position: relative;
+    left: 15%;
+}
+
+.thumbnail {
+    float: left;
+    margin-right: 90px; 
+}
+
+.progress {
+    max-width: 800px;
+    margin: 0 auto;
+    display: none;
+}
+
+/*
+#quote {
+    width: 100%;
+    height: 270px;
+    background: url(assets/74H.jpg) center center;
+    background: cover;
+}
+*/
+
+#quote-wrapper {
+    width: 0 auto;
+}
+
+div #quote {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.9em;
+}
+
+
+#quote .quote {
+    margin: 0 auto;
+    font-size: 1.5em !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 100px;
+    color: white !important;
+    text-align: center;
+    
+}
+
+#quote .quote span {
+     display: inline-block;
+    padding: 0.5em;
+    border: 10px solid white;
+}
+
+.jumbotron p {
+    margin: 0 auto;
+}
+
+
+
+/*PROJECT CAROUSAL-------------*/
+
+
+#carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-link {
+    color:red;
+}
+
+h2 a {
+    color: #e1c184;
+}
+
+h2 a:hover {
+    text-decoration: none;
+}
+
+#my-projects {
+    margin: 70px;
+}
+
+#my-projects p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+ul {   
+    padding-bottom: 70px;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 20px; 
+}
+
+.project-list {
+    text-align: left !important;
+}
+
+
+
+/*   CONTACT PAGE -------------*/
+
+
+ul {
+   text-align: center;
+}
+
+#contact-header {
+    color:#e1c184 !important;
+    padding: 40px;
+}
+
+#contact-info {
+    list-style: none;
+    text-align: center;
+    padding-top: 70px;
+}
+
+ul li i {
+    padding-right: 10px;
+}
+
+.fa-phone {
+    position: relative;
+    left: -42px;
+}
+
+.fa-envelope {
+    padding-right: 42px;
+}
+
+#social-media-links li {
+    display: inline;
+    
+}
+
+#social-media-links li a {
+    color: rgba(0,0,0,0.7);
+}
+
+#social-media-links li a:hover {
+    color: #000;
+}
+
+
+
